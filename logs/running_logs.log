@@ -30,3 +30,244 @@ Expires: Mon, 24 Jun 2024 10:49:41 GMT
 Source-Age: 0
 
 ]
+[2024-06-25 15:56:21,892: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-06-25 15:56:21,892: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x]
+[2024-06-25 16:10:59,079: INFO: common_utils: yaml file: src\config\config.yaml loaded successfully]
+[2024-06-25 16:10:59,112: INFO: common_utils: yaml file: src\models\params.yaml loaded successfully]
+[2024-06-25 16:10:59,140: INFO: common_utils: yaml file: src\data\schema.yaml loaded successfully]
+[2024-06-25 16:10:59,142: INFO: common_utils: created directory at: wine_quality]
+[2024-06-25 16:10:59,156: INFO: common_utils: created directory at: wine_quality/data/raw]
+[2024-06-25 16:14:18,252: INFO: common_utils: yaml file: src\config\config.yaml loaded successfully]
+[2024-06-25 16:14:18,256: INFO: common_utils: yaml file: src\models\params.yaml loaded successfully]
+[2024-06-25 16:14:18,262: INFO: common_utils: yaml file: src\data\schema.yaml loaded successfully]
+[2024-06-25 16:14:18,265: INFO: common_utils: created directory at: wine_quality]
+[2024-06-25 16:14:18,267: INFO: common_utils: created directory at: data/raw]
+[2024-06-25 16:14:19,932: INFO: 750345593: data/raw/data.zip download! With following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 134B:2C0FE0:63C316:68CCE8:667AD0BA
+Accept-Ranges: bytes
+Date: Tue, 25 Jun 2024 14:14:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpg1960038-PAR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1719324859.078319,VS0,VE186
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 832fd6e56c9b95c8a56028f3f21de54ad7472490
+Expires: Tue, 25 Jun 2024 14:19:19 GMT
+Source-Age: 0
+
+]
+[2024-06-25 16:15:23,647: INFO: common_utils: yaml file: src\config\config.yaml loaded successfully]
+[2024-06-25 16:15:23,652: INFO: common_utils: yaml file: src\models\params.yaml loaded successfully]
+[2024-06-25 16:15:23,659: INFO: common_utils: yaml file: src\data\schema.yaml loaded successfully]
+[2024-06-25 16:15:23,662: INFO: common_utils: created directory at: data/raw]
+[2024-06-25 16:15:23,662: INFO: 750345593: File already exists.]
+[2024-06-25 16:15:41,501: INFO: common_utils: yaml file: src\config\config.yaml loaded successfully]
+[2024-06-25 16:15:41,502: INFO: common_utils: yaml file: src\models\params.yaml loaded successfully]
+[2024-06-25 16:15:41,508: INFO: common_utils: yaml file: src\data\schema.yaml loaded successfully]
+[2024-06-25 16:15:41,511: INFO: common_utils: created directory at: data/raw]
+[2024-06-25 16:15:42,562: INFO: 750345593: data/raw/data.zip download! With following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 134B:2C0FE0:63C316:68CCE8:667AD0BA
+Accept-Ranges: bytes
+Date: Tue, 25 Jun 2024 14:15:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpg1960086-PAR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1719324942.895814,VS0,VE2
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 659fc114c1bc1d37cde26972ab19fc93afc98063
+Expires: Tue, 25 Jun 2024 14:20:41 GMT
+Source-Age: 83
+
+]
+[2024-06-25 16:18:30,172: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-06-25 16:18:30,172: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x]
+[2024-06-25 16:20:39,271: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-06-25 16:20:39,271: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x]
+[2024-06-25 16:22:13,342: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-06-25 16:22:13,347: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x]
+[2024-06-25 16:30:08,951: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-06-25 16:30:08,955: INFO: common_utils: yaml file: src\config\config.yaml loaded successfully]
+[2024-06-25 16:30:08,956: INFO: common_utils: yaml file: src\models\params.yaml loaded successfully]
+[2024-06-25 16:30:08,957: INFO: common_utils: yaml file: src\data\schema.yaml loaded successfully]
+[2024-06-25 16:30:08,960: ERROR: stage01_data_ingestion: "'ConfigBox' object has no attribute 'root'"]
+Traceback (most recent call last):
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\lenov\OneDrive\Documents\wine_quality\src\pipeline\stage01_data_ingestion.py", line 22, in <module>
+    obj.main()
+  File "C:\Users\lenov\OneDrive\Documents\wine_quality\src\pipeline\stage01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\lenov\onedrive\documents\wine_quality\src\config\config_manager.py", line 20, in __init__
+    create_directories([self.config.root])
+                        ^^^^^^^^^^^^^^^^
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\lenov\OneDrive\Documents\wine_quality\wq_env\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root'"
+[2024-06-25 16:30:38,732: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-06-25 16:30:38,741: INFO: common_utils: yaml file: src\config\config.yaml loaded successfully]
+[2024-06-25 16:30:38,741: INFO: common_utils: yaml file: src\models\params.yaml loaded successfully]
+[2024-06-25 16:30:38,741: INFO: common_utils: yaml file: src\data\schema.yaml loaded successfully]
+[2024-06-25 16:30:38,746: INFO: common_utils: created directory at: data/raw]
+[2024-06-25 16:30:39,967: INFO: data_ingestion: data/raw/data.zip download! With following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 134B:2C0FE0:63C316:68CCE8:667AD0BA
+Accept-Ranges: bytes
+Date: Tue, 25 Jun 2024 14:30:39 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpg1960051-PAR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1719325839.115768,VS0,VE162
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 558800d8f9dffac7c7977e9386facc95b2a8c0ef
+Expires: Tue, 25 Jun 2024 14:35:39 GMT
+Source-Age: 0
+
+]
+[2024-06-25 16:30:39,991: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x]
+[2024-06-25 16:31:01,402: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage started <<<<<]
+[2024-06-25 16:31:01,412: INFO: common_utils: yaml file: src\config\config.yaml loaded successfully]
+[2024-06-25 16:31:01,412: INFO: common_utils: yaml file: src\models\params.yaml loaded successfully]
+[2024-06-25 16:31:01,416: INFO: common_utils: yaml file: src\data\schema.yaml loaded successfully]
+[2024-06-25 16:31:01,418: INFO: common_utils: created directory at: data/raw]
+[2024-06-25 16:31:02,201: INFO: data_ingestion: data/raw/data.zip download! With following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 134B:2C0FE0:63C316:68CCE8:667AD0BA
+Accept-Ranges: bytes
+Date: Tue, 25 Jun 2024 14:31:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpg1960041-PAR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1719325862.551623,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2404d2e37b30d0d0d54a5a46e5e00df2afe2dff5
+Expires: Tue, 25 Jun 2024 14:36:01 GMT
+Source-Age: 22
+
+]
+[2024-06-25 16:31:02,254: INFO: stage01_data_ingestion: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x]
