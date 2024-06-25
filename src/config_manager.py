@@ -1,10 +1,10 @@
-from wine_quality.src import CONFIG_FILE_PATH, PARAMS_FILE_PATH, SCHEMA_FILE_PATH
-from wine_quality.src.common_utils import read_yaml, create_directories
-from wine_quality.src.entity import (DataIngestionConfig, 
-                                    DataValidationConfig, 
-                                    DataTransformationConfig, 
-                                    ModelTrainerConfig,
-                                    ModelEvaluationConfig)
+from config import CONFIG_FILE_PATH, SCHEMA_FILE_PATH, PARAMS_FILE_PATH
+from common_utils import read_yaml, create_directories
+from entity import (DataIngestionConfig, 
+                    DataValidationConfig, 
+                    DataTransformationConfig, 
+                    ModelTrainerConfig, 
+                    ModelEvaluationConfig)
 
 class ConfigurationManager:
     def __init__(
