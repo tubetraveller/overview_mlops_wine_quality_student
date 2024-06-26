@@ -11,4 +11,5 @@ The steps to be followed are: data ingestion, data validation, data processing, 
 5. On entity.py we'll have the configuration of the different class objects we'll be using, namely DataIngestion, DataValidation, DataTransformation, ModelTrainer and ModelEvaluation.
 6. Our config_manager.py will help us read the paths from the config.yaml file as well as the model hyperparameters and pass them on to the class objects. If needed, it will create the necessary folders through the create_directories function present in the common_utils.py file.
 7. On data and models we'll create the necessary scripts for each step: data ingestion, data validation, data transformation, model training and model evaluation.
-8. Create the pipeline step by step.
+8. Create the pipeline scripts for each of the steps.
+9. Link the steps of the pipeline through DVC
