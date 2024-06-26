@@ -2,8 +2,8 @@ import os
 import urllib.request as request
 import zipfile
 from pathlib import Path
-from wine_quality.src.entity import DataIngestionConfig
-from wine_quality import logger
+from src.entity import DataIngestionConfig
+from custom_logger import logger
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
