@@ -35,3 +35,14 @@ Source-Age: 0
 2024-06-26 09:31:56,448 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
 
 x=======x
+2024-06-26 09:34:08,972 - custom_logger - INFO - Custom logger module initialized.
+2024-06-26 09:34:09,563 - custom_logger - INFO - Parent folder: C:\Users\lenov\OneDrive\Documents\wine_quality
+2024-06-26 09:34:09,563 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-06-26 09:34:09,563 - custom_logger - INFO - yaml file: src\config.yaml loaded successfully
+2024-06-26 09:34:09,563 - custom_logger - INFO - yaml file: src\models\params.yaml loaded successfully
+2024-06-26 09:34:09,572 - custom_logger - INFO - yaml file: src\data\schema.yaml loaded successfully
+2024-06-26 09:34:09,572 - custom_logger - INFO - created directory at: data/raw
+2024-06-26 09:34:09,572 - custom_logger - INFO - File already exists.
+2024-06-26 09:34:09,578 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x
