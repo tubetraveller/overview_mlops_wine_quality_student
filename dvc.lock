@@ -3,14 +3,14 @@ stages:
   data_ingestion:
     cmd: python src/pipeline/stage01_data_ingestion.py
     deps:
-    - path: src/config/config.yaml
+    - path: src/config.yaml
       hash: md5
-      md5: 24a793a4ac511b62789980adbcb527d5
-      size: 822
+      md5: 569cc6a54e1ba4672f40477a89cdb8fc
+      size: 793
     - path: src/pipeline/stage01_data_ingestion.py
       hash: md5
-      md5: bc44358ae273ba0d7bb5ec4fc5d76b14
-      size: 862
+      md5: e122ea93dbb15a658c5939be089a2e8c
+      size: 1091
     outs:
     - path: data/raw/winequality-red.csv
       hash: md5
