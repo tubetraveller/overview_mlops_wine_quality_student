@@ -1,1 +1,7 @@
 /wq_env
+.venv/
+.idx/
+devserver.sh
+main.py
+data/
+*/__pycache__/*
