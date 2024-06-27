@@ -91,8 +91,7 @@ class ConfigurationManager:
                 model_path=config.model_path,
                 metric_file_name=config.metric_file_name,
                 all_params=params,
-                ####### fill in with your own dagshub mlflow uri
-                mlflow_uri="",
+                mlflow_uri="", # fill in with your own dagshub mlflow uri
           )
 
           return model_evaluation_config
