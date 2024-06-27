@@ -34,14 +34,9 @@ class ModelEvaluation:
         Additionally, we'll save these metrics as a dictionary on a json file. You can use the function 
         found on src/common_utils, save_json.
         Once again you can use the src/config.yaml file to help you with the attributes.
-        To use mlflow you can use the methods mlflow.log_params, mlflow.log_metric and mlflow.sklearn.log_model.
+        To use mlflow you can use the methods mlflow.set_registry_uri, mlflow.log_params, mlflow.log_metric and mlflow.sklearn.log_model.
         '''
 
-        X_test = pd.read_csv(self.config.test_X_path)
-        y_test = pd.read_csv(self.config.test_y_path)
-        model = joblib.load(self.config.model_path)
-
-        mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         with mlflow.start_run():
