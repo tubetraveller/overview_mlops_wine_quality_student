@@ -6,28 +6,29 @@ parent_folder = str(Path(__file__).parent.parent.parent)
 sys.path.append(parent_folder)
 
 from src.config_manager import ConfigurationManager
-from src.models.model_trainer import ModelTrainer
+from src.data_module_def.data_validation import DataValidation
 from custom_logger import logger
 
-STAGE_NAME = "Model trainer stage"
+STAGE_NAME = "Data Validation stage"
 
-class ModelTrainerTrainingPipeline:
+class DataValidationTrainingPipeline:
     def __init__(self):
         pass
 
     def main(self):
         '''
         To be completed.
-        We'll once again use the configuration manager, this time to instantiate the 
-        ModelTrainer object from which we'll use the train method.
+        Define a ConfigurationManager object which will then call the data validation config method to which in
+        turn will be used to define the DataValidation object. Then we'll be able to use the validate_all_columns
+         ethod.
         '''
 
 if __name__ == '__main__':
     try:
         logger.info(f">>>>> stage {STAGE_NAME} started <<<<<")
-        obj = ModelTrainerTrainingPipeline()
+        obj =  DataValidationTrainingPipeline()
         obj.main()
-        logger.info(f">>>>> stage {STAGE_NAME} completed <<<<< \n\n x========x")
+        logger.info(f">>>>> stage {STAGE_NAME} completed <<<<<\n\nx=======x")
     except Exception as e:
         logger.exception(e)
         raise e

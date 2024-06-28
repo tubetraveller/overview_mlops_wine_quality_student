@@ -1,8 +1,8 @@
 stages:
   data_ingestion:
-    cmd: python src/pipeline/stage01_data_ingestion.py
+    cmd: python src/pipeline_steps/stage01_data_ingestion.py
     deps:
     - src/config.yaml
-    - src/pipeline/stage01_data_ingestion.py
+    - src/pipeline_steps/stage01_data_ingestion.py
     outs:
     - data/raw/winequality-red.csv
