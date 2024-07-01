@@ -10,24 +10,3 @@ from src.models_module_def.model_evaluation import ModelEvaluation
 from custom_logger import logger
 
 STAGE_NAME = "Model evaluation stage"
-
-class ModelEvaluationTrainingPipeline:
-    def __init__(self):
-        pass
-
-    def main(self):
-        '''
-        To be completed.
-        We'll once again use the configuration manager, this time to instantiate the 
-        ModModelEvaluation object from which we'll use the log_into_mlflow method.
-        '''
-
-if __name__ == '__main__':
-    try:
-        logger.info(f">>>>> stage {STAGE_NAME} started <<<<<")
-        obj = ModelEvaluationTrainingPipeline()
-        obj.main()
-        logger.info(f">>>>> stage {STAGE_NAME} completed <<<<< \n\n x========x")
-    except Exception as e:
-        logger.exception(e)
-        raise e
