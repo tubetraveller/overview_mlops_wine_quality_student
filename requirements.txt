@@ -1,4 +1,5 @@
 dvc
+dvc["s3"]
 pandas 
 mlflow==2.2.2
 notebook
