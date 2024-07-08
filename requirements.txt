@@ -6,6 +6,7 @@ notebook
 numpy
 scikit-learn
 matplotlib
+pydantic==2.7.4
 python-box==6.0.2
 pyYAML
 tqdm
