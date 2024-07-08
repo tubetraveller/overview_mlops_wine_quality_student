@@ -1,4 +1,4 @@
-### Setting up a project on wine-quality step by step 🚀
+# Setting up an MLOps project step by step 🚀
 
 Welcome to the setup guide! Here, we'll outline the steps needed to configure and implement the various first stages of the MLOps pipeline. Follow along and fill in the details as you proceed through each step in the workflow_steps.ipynb notebook.
 
@@ -76,7 +76,7 @@ First of all you need to start by forking and cloning the project. Then, you mus
 
 For what follows, the first two steps have been provided so all you have to do is have a look at the files to make sure you understand the workflow.
 
-#### Step 1: Configuration Files 📘
+## Step 1: Configuration Files 📘
 Let's have a quick look at the different `yaml` files in our `src` folder.
 
 You can start by having a look at the `config.yaml` 📂 You will see that it sets the paths to the different files that will be used in each of the steps we'll put in place.
@@ -87,7 +87,7 @@ Finally, you can have a look at `params.yaml` 📊 inside the `models_module_def
 
 ⚠️ The file `src/config.py` defines the global variables containing the paths to these yaml files to facilitate their access. 
 
-#### Step 2: Common Utilities 🛠️ 
+## Step 2: Common Utilities 🛠️ 
 In `src/common_utils.py`  we have reusable functions:
 
 * read_yaml(filepath: str) -> dict
@@ -99,7 +99,7 @@ These utilities will streamline the loading of configurations and ensure necessa
 
 For the next steps you can use the notebook `workflow_steps.ipynb` to guide you through the code you'll need to write on each of the corresponding files 🧑‍💻
 
-#### Step 3: Define Configuration Classes 🧩
+## Step 3: Define Configuration Classes 🧩
 In `src/entity.py` define `dataclasses` for configuration objects:
 
 * DataIngestionConfig
@@ -110,7 +110,7 @@ In `src/entity.py` define `dataclasses` for configuration objects:
 
 These configurations will help in managing the settings and parameters required for each stage in a clean and organized manner. Refer to the corresponding cell in `workflow_steps.ipynb` for class definitions.
 
-#### Step 4: Configuration Manager 🗄️
+## Step 4: Configuration Manager 🗄️
 In `src/config_manager.py`, create a class to manage configurations. This class will:
 
 * Read paths from `config.yaml`
@@ -123,7 +123,7 @@ In `src/config_manager.py`, create a class to manage configurations. This class 
 
 Again, you can refer to the notebook for full implementation details 😉
 
-#### Step 5: Data module definition and model module definition.
+## Step 5: Data module definition and model module definition.
 In the corresponding files of `src/data_module_def`, create:
 
 1. Data Ingestion module 📥
@@ -152,7 +152,7 @@ This class will:
 This class will
 * Evaluate the model and log metrics using MLFlow
 
-#### Step 6: Pipeline Steps 🚀
+## Step 6: Pipeline Steps 🚀
 In `src/pipeline_steps`, create scripts for each stage to instantiate and run the processes:
 
 * stage01_data_ingestion.py
@@ -161,7 +161,7 @@ In `src/pipeline_steps`, create scripts for each stage to instantiate and run th
 * stage04_model_trainer.py
 * stage05_model_evaluation.py
 
-#### Step 7: Use DVC to connect the different stages of your pipeline
+## Step 7: Use DVC to connect the different stages of your pipeline
 Start by setting DagsHub as your distant storage through DVC.
 
 ```bash
