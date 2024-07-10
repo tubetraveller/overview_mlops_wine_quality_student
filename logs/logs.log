@@ -56,3 +56,54 @@ x=======x
 2024-06-26 15:05:33,681 - custom_logger - INFO - yaml file: src\data\schema.yaml loaded successfully
 2024-06-26 15:05:33,683 - custom_logger - INFO - created directory at: data/raw
 2024-06-26 15:05:33,683 - custom_logger - INFO - File already exists.
+2024-07-10 11:58:39,376 - custom_logger - INFO - Custom logger module initialized.
+2024-07-10 12:01:05,892 - custom_logger - INFO - yaml file: src\config.yaml loaded successfully
+2024-07-10 12:02:09,171 - custom_logger - INFO - yaml file: src\config.yaml loaded successfully
+2024-07-10 12:02:22,347 - custom_logger - INFO - yaml file: src\config.yaml loaded successfully
+2024-07-10 12:54:12,228 - custom_logger - INFO - Custom logger module initialized.
+2024-07-10 12:58:13,889 - custom_logger - INFO - yaml file: src\config.yaml loaded successfully
+2024-07-10 12:58:13,889 - custom_logger - INFO - yaml file: src\models_module_def\params.yaml loaded successfully
+2024-07-10 12:58:13,898 - custom_logger - INFO - yaml file: src\data_module_def\schema.yaml loaded successfully
+2024-07-10 12:58:13,898 - custom_logger - INFO - created directory at: data/raw
+2024-07-10 12:58:15,670 - custom_logger - INFO - data/raw/data.zip download! With following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7739:34F6FA:2B8DD72:2DDA3A6:668E6947
+Accept-Ranges: bytes
+Date: Wed, 10 Jul 2024 10:58:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpg1960094-PAR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1720609096.612567,VS0,VE169
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 845389e56141ea0e720ec43cc7cd4b6bf94135d4
+Expires: Wed, 10 Jul 2024 11:03:15 GMT
+Source-Age: 0
+
+
+2024-07-10 12:59:14,888 - custom_logger - INFO - yaml file: src\config.yaml loaded successfully
+2024-07-10 12:59:14,901 - custom_logger - INFO - yaml file: src\models_module_def\params.yaml loaded successfully
+2024-07-10 12:59:14,905 - custom_logger - INFO - yaml file: src\data_module_def\schema.yaml loaded successfully
+2024-07-10 12:59:14,919 - custom_logger - INFO - created directory at: data
+2024-07-10 12:59:46,179 - custom_logger - INFO - yaml file: src\config.yaml loaded successfully
+2024-07-10 12:59:46,179 - custom_logger - INFO - yaml file: src\models_module_def\params.yaml loaded successfully
+2024-07-10 12:59:46,179 - custom_logger - INFO - yaml file: src\data_module_def\schema.yaml loaded successfully
+2024-07-10 12:59:46,179 - custom_logger - INFO - created directory at: data/processed
+2024-07-10 12:59:46,433 - custom_logger - INFO - Splitted data into training and test sets
+2024-07-10 12:59:46,433 - custom_logger - INFO - X_train shape: (1279, 11), y_train shape: (1279,)
+2024-07-10 12:59:46,433 - custom_logger - INFO - X_test shape: (320, 11), y_test shape: (320,)
+2024-07-10 13:00:48,577 - custom_logger - INFO - yaml file: src\config.yaml loaded successfully
+2024-07-10 13:00:48,577 - custom_logger - INFO - yaml file: src\models_module_def\params.yaml loaded successfully
+2024-07-10 13:00:48,577 - custom_logger - INFO - yaml file: src\data_module_def\schema.yaml loaded successfully
+2024-07-10 13:00:48,577 - custom_logger - INFO - created directory at: models
