@@ -167,7 +167,7 @@ Using the *Step 4* of the notebook, in `src/pipeline_steps` create scripts for e
 
 On each script you have to complete the classes with two methods: an `__init__` that doesn't do anything, and a `main` where you have to implement the code in each section of the *Step 4* of the notebook.
 
-## Step 7: Use DVC to connect the different stages of your pipeline 🦉
+## Step 5: Use DVC to connect the different stages of your pipeline 🦉
 Start by setting DagsHub as your distant storage through DVC.
 
 ```bash
